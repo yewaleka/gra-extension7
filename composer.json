@@ -1,0 +1,22 @@
+{
+    "name": "yewaleka/graextension7",
+    "description": "This is Extension 7",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "minimum-stability": "stable",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yewaleka\\Graextension7\\" : "vendor/"
+        }
+    },	
+   "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],	
+    "require": {
+	  "php": "~7.2.0||~7.3.0"
+   }
+}
